@@ -8,7 +8,7 @@ const Hero = ({isVisible}) => {
   
         
             <motion.div className='flex flex-col  w-[90%] h-aut0 mt-16   md:flex-row items-center justify-between relative'>
-            <motion.div className=' relative xl:h-[26rem] sm:h-[20rem]  h-[27rem] ml-8 md:ml-16 2xl:h-[28rem] lg:h-[25rem]  pl-10 md:h-[24rem] md:w-[60%] bg-white pt-16 rounded-lg'
+            <motion.div className='hero-1 relative xl:h-[26rem] sm:h-[20rem]  h-[27rem] ml-8 md:ml-16 2xl:h-[28rem] lg:h-[25rem]  pl-10 md:h-[24rem] md:w-[60%] bg-white pt-16 rounded-lg'
          
             >
             
