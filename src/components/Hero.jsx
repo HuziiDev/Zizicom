@@ -8,7 +8,7 @@ const Hero = ({isVisible}) => {
   
         
             <motion.div className='flex flex-col  w-[90%] h-aut0 mt-16   md:flex-row items-center justify-between relative'>
-            <motion.div className=' relative h-[27rem] ml-8 md:ml-16   pl-10 md:h-[24rem] md:w-[60%] bg-white pt-16 rounded-lg'
+            <motion.div className=' relative xl:h-[26rem] sm:h-[20rem]  h-[27rem] ml-8 md:ml-16 2xl:h-[28rem] lg:h-[25rem]  pl-10 md:h-[24rem] md:w-[60%] bg-white pt-16 rounded-lg'
          
             >
             
@@ -17,7 +17,7 @@ const Hero = ({isVisible}) => {
                  
                
               
-              <h1 className='text-5xl text-black font-mono ml-16 font-bold md:text-[4rem] uppercase'>Let's build the Next big thing in Tech</h1>
+              <h1 className='text-5xl text-black font-mono sm:text-[2.5rem] ml-16 xl:text-[4rem] lg:text-[3.5rem] font-bold 2xl:text-[4.3rem] md:text-[2.7rem] uppercase'>Let's build the Next big thing in Tech</h1>
               
               </motion.div>
               <div className='mt-8 w-full bg-green-700 h-1'></div>
