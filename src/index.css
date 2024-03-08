@@ -68,6 +68,7 @@
     font-size: 2rem;
     
     }
+    
 }
 @media screen and (max-width: 323px) {
     .hero-1{
@@ -79,6 +80,7 @@
     
     
     }
+   
 }
 @media screen and (max-width: 300px) {
     /* .hero-1{
@@ -101,5 +103,5 @@
     
     
     }
-    
+
 }

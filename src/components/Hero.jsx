@@ -24,7 +24,7 @@ const Hero = ({isVisible}) => {
               <motion.div className='mt-12 mb-12'
               >
               
-                <button className='absolute bg-black border text-white p-4 ml-16  rounded-xl font-bold transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-250  duration-300 hover:bg-white hover:border-2 hover:text-black hover:border-green-700'>Get Started</button>
+                <button className='hero-btn absolute bg-black border text-white p-4 ml-16  rounded-xl font-bold transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-250  duration-300 hover:bg-white hover:border-2 hover:text-black hover:border-green-700'>Get Started</button>
                 
               </motion.div>
               
