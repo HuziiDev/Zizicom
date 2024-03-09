@@ -1,17 +1,10 @@
 import React, { useState } from "react"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
+import Services from "./components/Services"
 
 function App() {
-  let [counter, setCounter]= useState(15)
-  const addValue = () => {
-    
-    setCounter(counter+1)
-  }
-  const removeValue = () => {
-    
-    setCounter(counter-1)
-  }
+ 
 
 
   return (
@@ -19,6 +12,7 @@ function App() {
     
     <Navbar/>2
     <Hero/>
+    <Services/>
     </>
   )
 }

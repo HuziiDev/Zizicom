@@ -12,7 +12,8 @@ const Hero = ({isVisible}) => {
              initial={{scale:0}}
              animate={{scale:1}}
              exit={{scale:1}}
-             transition={{ease:"easeInOut", duration:1}}
+             transition={{ease:"easeInOut", duration:1
+             }}
             >
             
            
