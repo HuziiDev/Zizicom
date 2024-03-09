@@ -6,7 +6,7 @@ import Card from './Card'
 
 const Services = () => {
   return (
-    <motion.div className=' flex flex-col md:flex md:flex-row md:flex-wrap  md:gap-3 w-[90%] h-auto bg- mx-auto rounded-xl my-4'>
+    <motion.div className=' flex flex-shrink  flex-wrap  md:gap-3 w-[90%] h-auto bg- mx-auto rounded-xl my-4'>
     <Card 
         image={collabImg}
         sumTitle="Collaborate"

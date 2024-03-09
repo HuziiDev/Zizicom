@@ -199,3 +199,38 @@
   }
 
 }
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    
+  .summary h2{
+    font-size: 25px;
+  }
+  .summary p{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+}
+@media screen and (max-width: 405px) {
+    
+  .summary h2{
+    font-size: 22px;
+    margin-left: 100px;
+  }
+  .summary p{
+    width: 80%;
+    font-size: 15px;
+    margin-left: 90px;
+  }
+   .button button{
+    font-size: 11px;
+    padding: 2px;
+    
+  }
+
+}
