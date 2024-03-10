@@ -204,7 +204,7 @@
         font-size: 1.5rem;
     }
     .sum-btn button{
-        padding: 4px 4px;
+        padding: 8px 8px;
         
     }
     .sum-btn {
@@ -218,14 +218,23 @@
        width: 80px;
        height: 80px;
     }
+    
 }
 @media screen and (max-width: 390px) {
-  .sum-title h2{
-    margin-right: 50px;
-  }
-  .sum-btn{
-    padding-right: 30px;
-  }
+.sum-btn{
+    margin-left: 130px;
+}
+.img-container{
+    margin-left: 130px;
+}
+.sum-title{
+    margin-left: 100px;
+}
+}
+@media screen and (max-width: 385px) {
+.sum-para p{
+    font-size: 35px;
+}
 }
 
 

@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 
 const Card = ({image,sumTitle, sumPara, buttonText }) => {
   return (
-    <motion.div className='card-container  max-w-md border-1 shadow-lg shadow-black border-white rounded-lg mt-4' >
+    <motion.div className='card-container max-w-sm   border-1 shadow-lg shadow-black border-white rounded-lg mt-4' >
         <motion.div className='img-container p-4 ml-40 w-full'>
             <img className='w-24 h-24 ' src={image} alt="" />
         </motion.div>
