@@ -14,7 +14,7 @@ const Card = ({image,sumTitle, sumPara, buttonText }) => {
         <motion.div className='sum-para p-4 w-3/4 ml-20'>
             <p className=' text-white  '>{sumPara}</p>
         </motion.div>
-        <motion.div className='sum-btn p-4 ml-40 '>
+        <motion.div className='sum-btn p-4 ml-36 '>
             <button className=' bg-white px-3 py-2 rounded-xl font-semibold hover:transition-all hover:border-2 hover:border-green-700'>{buttonText}</button>
         </motion.div>
 

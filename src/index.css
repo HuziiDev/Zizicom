@@ -233,9 +233,46 @@
 }
 @media screen and (max-width: 385px) {
 .sum-para p{
-    font-size: 35px;
+    font-size: 15px;
 }
 }
+@media screen and (max-width: 360px) {
+.sum-btn{
+    margin-left: 120px;
+}
+}
+@media screen and (max-width: 335px) {
+.sum-title h2{
+    font-size: 1.3rem;
+}
+.sum-para p{
+    font-size: 0.8rem;
+}
+.sum-btn button{
+    padding:2px 2px;
+    font-size: 0.8rem;
+}
+}
+@media screen and (max-width: 300px) {
+.img-container{
+    margin-left: 100px;
+}
+.sum-title{
+    margin-left: 85px;
+}
+.sum-para{
+    margin-left: 60px;
+}
+.sum-btn {
+    margin-left: 100px;
+}
+}
+@media screen and (max-width: 279px) {
+.sum-para p{
+    font-size: 0.7rem;
+}
+}
+
 
 
 
