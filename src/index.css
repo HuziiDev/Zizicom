@@ -199,38 +199,37 @@
   }
 
 }
-
-
-
-
-
-
-@media screen and (max-width: 480px) {
-    
-  .summary h2{
-    font-size: 25px;
-  }
-  .summary p{
-    font-size: 15px;
-    margin-left: 10px;
-  }
-
+@media screen and (max-width: 435px) {
+    .sum-title h2{
+        font-size: 1.5rem;
+    }
+    .sum-btn button{
+        padding: 4px 4px;
+        
+    }
+    .sum-btn {
+    margin-right: 30px;
+        
+    }
+  
 }
-@media screen and (max-width: 405px) {
-    
-  .summary h2{
-    font-size: 22px;
-    margin-left: 100px;
-  }
-  .summary p{
-    width: 80%;
-    font-size: 15px;
-    margin-left: 90px;
-  }
-   .button button{
-    font-size: 11px;
-    padding: 2px;
-    
-  }
-
+@media screen and (max-width: 400px) {
+    .img-container img{
+       width: 80px;
+       height: 80px;
+    }
 }
+@media screen and (max-width: 390px) {
+  .sum-title h2{
+    margin-right: 50px;
+  }
+  .sum-btn{
+    padding-right: 30px;
+  }
+}
+
+
+
+
+
+
