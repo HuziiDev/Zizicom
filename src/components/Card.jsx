@@ -9,7 +9,7 @@ const Card = ({image,sumTitle, sumPara, buttonText }) => {
   return (
    
    
-    <motion.div className='card-container max-w-sm   border-1 shadow-lg shadow-black border-white rounded-lg mt-4' 
+    <motion.div className='card-container max-w-sm    rounded-lg mt-4' 
     // animate={mainControls}
     // initial='hidden'
     //      variants={{
@@ -32,7 +32,7 @@ const Card = ({image,sumTitle, sumPara, buttonText }) => {
             <p className=' text-white  '>{sumPara}</p>
         </motion.div>
         <motion.div className='sum-btn p-4 ml-36 '>
-            <button className=' bg-white px-3 py-2 rounded-xl font-semibold hover:transition-all hover:border-2 hover:border-green-700'>{buttonText}</button>
+            <button className=' bg-white px-3 py-2 rounded-xl font-semibold hover:bg-slate-400 hover:duration-500'>{buttonText}</button>
         </motion.div>
 
          </motion.div>
