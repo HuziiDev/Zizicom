@@ -8,6 +8,7 @@ const Hero = ({isVisible}) => {
   
         
             <motion.div className='flex flex-col  w-[90%] h-aut0 mt-16   md:flex-row items-center justify-between relative'>
+          
                 <motion.div className='hero-1 relative xl:h-[26rem] sm:h-[20rem]  h-[27rem] ml-8 md:ml-16 2xl:h-[28rem] lg:h-[25rem]  pl-10 md:h-[24rem] md:w-[60%] bg-gradient-to-r from-slate-900 to-white pt-16 rounded-lg'
              initial={{scale:0}}
              animate={{scale:1}}
