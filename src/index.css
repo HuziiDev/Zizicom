@@ -357,6 +357,23 @@
     }
 
 }
+@media screen and (max-width: 427px) {
+    .hire_text h1{
+        font-size: 2rem;
+        
+    }
+    .hire_text p{
+        font-size: 1rem;
+    }
+      
+}
+@media screen and (max-width: 291px) {
+    .hire_text button{
+        padding-left: 60px;
+
+    }
+      
+}
 
 
 
