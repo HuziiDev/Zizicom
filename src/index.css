@@ -419,9 +419,44 @@
    }      
 }
 
+.icon{
+   cursor: pointer;
+}
+.icon:hover{
+    animation: scaleAnimation 0.4s ease-in-out ;
+}
+@keyframes scaleAnimation {
+    from {
+      transform: scale(1); /* Initial scale */
+    }
+    to {
+      transform: scale(1.2); /* Final scale */
+    }
+  }
 
 
-
-
-
-
+  @media screen and (max-width:450px) {
+    .copyright{
+        margin-left: 45px;
+    }
+    .copyright h1{
+        font-size: 1.3rem
+    }
+       
+ }
+  @media screen and (max-width:380px) {
+    .copyright{
+        margin-left: 30px;
+    }
+    .copyright h1{
+        font-size: 1.2rem
+    }
+       
+ }
+  @media screen and (max-width:330px) {
+   
+    .copyright h1{
+        font-size: 1rem
+    }
+       
+ }
