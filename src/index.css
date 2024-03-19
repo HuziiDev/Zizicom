@@ -357,6 +357,7 @@
     }
 
 }
+
 @media screen and (max-width: 427px) {
     .hire_text h1{
         font-size: 2rem;
@@ -395,7 +396,7 @@
    }
    .curious button {
     padding: 10px 40px;
-    margin-left: 60px;
+    margin-left: 50px;
    }      
 }
 @media screen and (max-width: 365px) {
@@ -412,8 +413,9 @@
     font-size: 1.1rem;
    }
    .curious button {
-    padding: 10px 20px;
+    padding: 1px 8px;
     margin-left: 40px;
+    font-size: 17px;
    }      
 }
 
