@@ -375,71 +375,6 @@
     }
       
 }
-@media screen and (max-width: 640px) {
-   .curious{
-    margin-left:6rem;
-   }
-   .curious h1{
-    font-size: 2.3rem;
-   }
-   .curious-btn{
-    margin-left: 5rem;
-    padding: 10px 70px;
-
-   }
-   
-      
-}
-@media screen and (max-width: 520px) {
-   .curious h1{
-    font-size: 2rem;
-   }
-   .curious-btn{
-    padding: 10px 55px;
-    margin-left: 4rem;
-   }
-      
-}
-@media screen and (max-width: 445px) {
-   .curious h1{
-    font-size: 1.6rem;
-   }
-   .curious button {
-    padding: 10px 40px;
-    margin-left: 50px;
-   }      
-}
-@media screen and (max-width: 391px) {
-    .curious {
-        margin-left: 4rem;
-    }
-    .curious button {
-     padding: 10px 40px;
-     margin-left: 40px;
-    }      
- }
-@media screen and (max-width: 365px) {
-   .curious h1{
-    font-size: 1.3rem;
-   }
-   .curious button {
-    padding: 10px 30px;
-    margin-left: 40px;
-   }      
-}
-@media screen and (max-width:320px) {
-    .curious{
-        margin-left: 3.5rem;
-    }
-   .curious h1{
-    font-size: 1.1rem;
-   }
-   .curious button {
-    padding: 5px 15px;
-    margin-left: 30px;
-    font-size: 17px;
-   }      
-}
 
 .icon{
    cursor: pointer;
@@ -482,3 +417,23 @@
     }
        
  }
+  @media screen and (max-width:500px) {
+   
+  .curious h1{
+    font-size: 2rem;
+  }
+  .curious-btn{
+    padding: 10px 40px;
+  }
+}
+  @media screen and (max-width:360px) {
+   
+  .curious h1{
+    font-size: 1.5rem;
+  }
+  .curious-btn{
+    padding: 10px 25px;
+  }
+}
+
+ 

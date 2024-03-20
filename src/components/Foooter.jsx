@@ -45,9 +45,10 @@ const Footer = () => {
         
         </motion.div>
         </motion.div>
-        <motion.div className="curious pb-44 pt-12 ml-96 2xl:ml-[27rem] md:ml-[8rem] sm:ml-[10rem]" >
+        
+        <motion.div className="curious pb-44 flex flex-col items-center justify-center pt-12" >
             <h1 className='text-white text-[2.6rem]  font-extrabold md:text-[3rem] md:ml-16'>Curious how we do it?</h1>
-            <motion.button className='curious-btn absolute px-24 text-white text-xl py-3 rounded-full mt-8 font-semibold bg-transparent sm:ml-20 md:px-24 md:ml-40' style={{border,boxShadow}}
+            <motion.button className='curious-btn absolute  px-24 text-white text-xl py-3 rounded-full mt-36 font-semibold bg-transparent md:px-24 sm:px-16 ' style={{border,boxShadow}}
              whileHover={{scale:1.015}}
             whileTap={{
               scale:0.985
