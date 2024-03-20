@@ -428,12 +428,15 @@
    }      
 }
 @media screen and (max-width:320px) {
+    .curious{
+        margin-left: 3.5rem;
+    }
    .curious h1{
     font-size: 1.1rem;
    }
    .curious button {
     padding: 5px 15px;
-    margin-left: 40px;
+    margin-left: 30px;
     font-size: 17px;
    }      
 }
