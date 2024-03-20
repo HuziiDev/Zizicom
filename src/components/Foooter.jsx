@@ -8,6 +8,8 @@ const COLORS=['#13FFAA', '#1E67C6', '#CE84CF', '#DD335C']
 const Footer = () => {
   const colors= useMotionValue(COLORS[0])
   const backgroundImage= useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #020617 50%, ${colors})`
+    const border = useMotionTemplate`1px solid ${colors}`
+  const boxShadow= useMotionTemplate`0px 4px 24px ${colors}`
   
 
 
@@ -27,7 +29,7 @@ const Footer = () => {
     <motion.div className='footer-container  w-full h-auto mt-40 '
     style={{backgroundImage}}
     >
-    <motion.div className='outer w-full bg-green-700 h-1 mt-20 '></motion.div>
+   
     <motion.div className="main-f-container flex flex-col md:flex md:flex-row md:justify-between pt-20 pb-20">
 
      <motion.div className="copyright ml-16 md:ml-28">
@@ -42,6 +44,16 @@ const Footer = () => {
            <FaLinkedinIn style={style} className='icon' />
         
         </motion.div>
+        </motion.div>
+        <motion.div className="curious pb-44 pt-12 ml-96 2xl:ml-[27rem] md:ml-[8rem] sm:ml-[10rem]" >
+            <h1 className='text-white text-[2.6rem]  font-extrabold md:text-[3rem] md:ml-16'>Curious how we do it?</h1>
+            <motion.button className='curious-btn absolute px-24 text-white text-xl py-3 rounded-full mt-8 font-semibold bg-transparent sm:ml-20 md:px-24 md:ml-40' style={{border,boxShadow}}
+             whileHover={{scale:1.015}}
+            whileTap={{
+              scale:0.985
+              }}  
+     >Contact us
+     </motion.button>
         </motion.div>
     </motion.div>
   )

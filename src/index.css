@@ -375,18 +375,28 @@
     }
       
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
+   .curious{
+    margin-left:6rem;
+   }
    .curious h1{
-    font-size: 2rem;
+    font-size: 2.3rem;
    }
-   .curious button{
-    margin-left: 30px;
+   .curious-btn{
+    margin-left: 5rem;
+    padding: 10px 70px;
+
    }
+   
       
 }
 @media screen and (max-width: 520px) {
-   .curious{
-    margin-left: 10px;
+   .curious h1{
+    font-size: 2rem;
+   }
+   .curious-btn{
+    padding: 10px 55px;
+    margin-left: 4rem;
    }
       
 }
@@ -399,6 +409,15 @@
     margin-left: 50px;
    }      
 }
+@media screen and (max-width: 391px) {
+    .curious {
+        margin-left: 4rem;
+    }
+    .curious button {
+     padding: 10px 40px;
+     margin-left: 40px;
+    }      
+ }
 @media screen and (max-width: 365px) {
    .curious h1{
     font-size: 1.3rem;
@@ -413,7 +432,7 @@
     font-size: 1.1rem;
    }
    .curious button {
-    padding: 1px 8px;
+    padding: 5px 15px;
     margin-left: 40px;
     font-size: 17px;
    }      
