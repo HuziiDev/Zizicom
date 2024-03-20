@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
 
     
-    <div className='Navbar w-[90%] h-12 mt-4 ml-4 md:ml-16 bg-gradient-to-r from-slate-900 to-slate-700 flex items-center justify-between rounded-3xl md:rounded border-solid border-[0.1px] border-gray-600'>
+    <div className='Navbar w-[90%] h-12 mt-4 ml-4 md:ml-16 bg-black flex items-center justify-between rounded-3xl md:rounded border-solid border-[0.1px] border-gray-600'>
         <div className="logo px-3">
             <h1 className='text-gray-200 font-medium text-[1.3rem] cursor-pointer'>Agency Name</h1>
         </div>
