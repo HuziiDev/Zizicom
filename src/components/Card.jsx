@@ -8,7 +8,7 @@ const Card = ({image,sumTitle, sumPara, buttonText }) => {
     const scrollVariants={
         initial:{
             opacity:0,
-            x:-400
+            x:-50
         },
         animate:{
             opacity:1,
