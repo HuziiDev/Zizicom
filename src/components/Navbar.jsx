@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const Navbar = () => {
   return (
@@ -20,7 +21,14 @@ const Navbar = () => {
 
         <div className=" hidden md:block button px-5">
               <a className='text-gray-400 text-base font-medium cursor-pointer mr-3 hover:text-gray-300' href="#">Sign in</a>
-            <button className='bg-black text-white w-24 font-bold p-1 rounded-md shadow-xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-250  duration-300 hover:bg-white hover:border-2 hover:text-black hover:border-green-700'>Login</button>
+            <motion.button className='bg-black text-white w-24 font-bold p-1 rounded-md shadow-xl   hover:border-2  hover:border-green-700'
+            
+            whileHover={{scale:1.015}}
+            whileTap={{
+              scale:0.985
+              }} 
+            
+            >Login</motion.button>
         </div>
         <div className=' md:hidden px-8 pb-2 pt-2 text-4xl text-white'>
             <a className='text-4xl text-white ' href="">&#8801;</a>

@@ -4,22 +4,28 @@ import {AnimatePresence, motion, useAnimation, useScroll} from 'framer-motion'
 
 
 const Card = ({image,sumTitle, sumPara, buttonText }) => {
+
+    const scrollVariants={
+        initial:{
+            opacity:0,
+            x:-400
+        },
+        animate:{
+            opacity:1,
+            x:0
+        }
+    }
   
   
   return (
    
    
     <motion.div className='card-container max-w-sm    rounded-lg mt-4' 
-    // animate={mainControls}
-    // initial='hidden'
-    //      variants={{
-    //         hidden:{
-    //             opacity:0,
-    //             y:75
-    //         }
-    //      }}
-    //      transition={{ease:'backInOut', duration:1}}
-    //      exit={{y:0}}
+    variants={scrollVariants}
+   initial="initial"
+   whileInView="animate"
+   viewport={{once:true}}
+   transition={{ease:"easeIn", duration:1.5}}
     
      >
         <motion.div className='img-container p-4 ml-[9rem] w-full'>
