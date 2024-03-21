@@ -16,7 +16,7 @@ function App() {
   return (
     <>
     
-    <Navbar/>2
+    <Navbar/>
     <Hero/>
     <Heading/>
     <Services/>

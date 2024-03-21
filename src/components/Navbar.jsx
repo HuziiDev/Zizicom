@@ -31,7 +31,7 @@ const Navbar = () => {
             >Login</motion.button>
         </div>
         <div className=' md:hidden px-8 pb-2 pt-2 text-4xl text-white'>
-            <a className='text-4xl text-white ' href="">&#8801;</a>
+            <a className='text-4xl text-white' href="">&#8801;</a>
         </div>
     </div>
 
