@@ -440,5 +440,45 @@
     padding: 10px 25px;
   }
 }
+  @media screen and (max-width:635px) {
+   
+ .first-card{
+    width: 80%;
+    margin: auto;
+
+ }
+ .service-heading{
+    margin-left: 4rem;
+ }
+}
+  @media screen and (max-width:435px) {
+   
+ .card-content h2{
+    font-size: 1.2rem;
+ }
+ .card-content p{
+    font-size: 0.85rem;
+ }
+ .service-heading{
+    margin-left: 3rem;
+ }
+ .first-card{
+    width: 85%;
+    margin: auto;
+
+ }
+}
+  @media screen and (max-width:360px) {
+   
+.card-content button{
+    font-size: 1rem;
+}
+.first-card{
+    width: 95%;
+}
+.service-heading{
+    margin-left: 1rem;
+}
+}
 
  
